@@ -110,10 +110,15 @@
   <img src="images/screen2.png" alt="broken_img"><br>
   <h3>Calculating and Display Discount and Total</h3>
   After you have entered the data, click on "Total" button to display the "Total Amount", "Discount", and "Total after
-  Discount".
+  Discount". <br>
+  The result will look like this: <br>
+  <img src="images/screen3.png" alt="broken_img"><br>
   <h3>Clearing the Data</h3>
   After you finish the operations, you can clear the data fields as well as your shopping cart by clicking on "Clear"
-  button.
+  button. <br>
+  The result will look like this:
+  <img src="images/screen1.png" alt="broken_img">
+  <i>Notice all the data fields have been cleared as well as the content of datagridview.</i>
   <h3>Minimizing and Closing the Application</h3>
   You can minimize the application by clicking on the "-" button
   that you find on the titleBar. Similarly, you can close the Application by clicking on the "X" button next to it.
