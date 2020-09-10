@@ -33,26 +33,34 @@ namespace SaipalStore
         //Method to add data into the datagridview
         public void addData()
         {
-            //Create a new table to store data.
-            DataTable dt = new DataTable();
+            //To catch possible errors while running the program
+            try
+            {
+                //Create a new table to store data.
+                DataTable dt = new DataTable();
 
-            //Associate the table as the datagridview's datasource.
-            dt = (DataTable)dgProduct.DataSource; 
-            
-            //Create strings to store the entered data.
-            string productName = txtName.Text; 
-            string productQuantity = txtQuantity.Text;
-            string productRate = txtRate.Text;
+                //Associate the table as the datagridview's datasource.
+                dt = (DataTable)dgProduct.DataSource;
 
-            //Perform calculations and store them as double in a new variable.
-            double total = Convert.ToDouble(productRate) * Convert.ToDouble(productQuantity);
+                //Create strings to store the entered data.
+                string productName = txtName.Text;
+                string productQuantity = txtQuantity.Text;
+                string productRate = txtRate.Text;
 
-            //Convert the total obtained after the calculations into a string.
-            string productTotal = total.ToString(); 
+                //Perform calculations and store them as double in a new variable.
+                double total = Convert.ToDouble(productRate) * Convert.ToDouble(productQuantity);
 
-            //Add the data into the datagridview as an array.
-            string[] row = { productName, productQuantity, productRate, productTotal };
-            dgProduct.Rows.Add(row);
+                //Convert the total obtained after the calculations into a string.
+                string productTotal = total.ToString();
+
+                //Add the data into the datagridview as an array.
+                string[] row = { productName, productQuantity, productRate, productTotal };
+                dgProduct.Rows.Add(row);
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.Message);
+            }
         }
 
         //Method to calculate the total amount.
@@ -142,6 +150,11 @@ namespace SaipalStore
             //Call the methods and display the prices.
             lblAmount.Text = "Rs. " +calculateTotal().ToString();
             lblFinalTotal.Text = "Rs. " + calculateFinal().ToString();
+        }
+
+        private void homePage_MouseDown(object sender, MouseEventArgs e)
+        {
+            
         }
     }
 }
