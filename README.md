@@ -105,7 +105,7 @@
   been completed when the user clicks on "Total" button. <br>
   <h3>Entering the Data</h3>
   To enter the data, navigate to Data Entry Area, enter the data inside the textboxes, and click on "Add to Cart"
-  button. <i>After entering the data, all the contents of the datafields will be cleared.</i>
+  button. <i>After entering the data, all the contents of the datafields will be cleared.</i><br>
   The end result will look like this. <br>
   <img src="images/screen2.png" alt="broken_img"><br>
   <h3>Calculating and Display Discount and Total</h3>
