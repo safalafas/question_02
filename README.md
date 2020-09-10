@@ -55,11 +55,34 @@
 <h2>Program</h2>
 <p>After you successfully build and run the program, it runs a console window which looks similar to this.<br>
   <img src="images/screen1.png" alt="broken_img"><br>
-  There are four major fields in the application, <b style="color: red;">Data View Area</b>, <b style="color: green;">
-    Data Entry Area</b>, <b style="color: black;">Button Area</b>, and <b style="color: blue;">Final Calculations area
+  There are four major fields in the application, <b>Data View Area</b>, <b>
+    Data Entry Area</b>, <b>Button Area</b>, and <b>Final Calculations Area
   </b> as shown in image here here. <br>
   <img src="images/screen1(labels).png" alt="broken_img">
-
+  <br>
+  <table>
+    <thead>Legend</thead>
+    <tr>
+      <th>Color</th>
+      <th>Index of</th>
+    </tr>
+    <tr>
+      <td>Red</td>
+      <td>Data View Area</td>
+    </tr>
+    <tr>
+      <td>Green</td>
+      <td>Data Entry Area</td>
+    </tr>
+    <tr>
+      <td>Black</td>
+      <td>Button Area</td>
+    </tr>
+    <tr>
+      <td>Blue</td>
+      <td>Final Calculations Area</td>
+    </tr>
+  </table>
   <h3>Adding Data</h3>
   To add data into the DataGridView
   <img src="images/screen2.png" alt="broken_img"><br>
