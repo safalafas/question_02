@@ -125,6 +125,8 @@
 </p>
 <h2>Known Errors</h2>
 <p>
-  <img src="images/error1.png" alt="broken_img"><br>
-  <img src="images/error2.png" alt="broken_img"><br>
+  The only known error in this program occurs when the user clicks on "Add to Cart" button when the content of the
+  "Quantity" and "Rate" fields are empty or have content which are not numbers. <br>
+  The error looks like this: <br>
+  <img src="images/error.png" alt="broken_img"><br>
 </p>
