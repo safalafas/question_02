@@ -116,7 +116,7 @@
   <h3>Clearing the Data</h3>
   After you finish the operations, you can clear the data fields as well as your shopping cart by clicking on "Clear"
   button. <br>
-  The result will look like this:
+  The result will look like this: <br><br>
   <img src="images/screen1.png" alt="broken_img">
   <i>Notice all the data fields have been cleared as well as the content of datagridview.</i>
   <h3>Minimizing and Closing the Application</h3>
