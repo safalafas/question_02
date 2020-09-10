@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(homePage));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle25 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle26 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle27 = new System.Windows.Forms.DataGridViewCellStyle();
             this.topBar = new System.Windows.Forms.Panel();
             this.pnlStore = new System.Windows.Forms.Panel();
             this.lblStoreName = new System.Windows.Forms.Label();
@@ -59,9 +59,9 @@
             this.txtRate = new System.Windows.Forms.TextBox();
             this.panel5 = new System.Windows.Forms.Panel();
             this.lblRate = new System.Windows.Forms.Label();
-            this.txtQuantity = new System.Windows.Forms.TextBox();
-            this.lblQuantity = new System.Windows.Forms.Label();
             this.txtName = new System.Windows.Forms.TextBox();
+            this.lblQuantity = new System.Windows.Forms.Label();
+            this.txtQuantity = new System.Windows.Forms.TextBox();
             this.lblName = new System.Windows.Forms.Label();
             this.totalPanel = new System.Windows.Forms.Panel();
             this.panel8 = new System.Windows.Forms.Panel();
@@ -195,40 +195,40 @@
             this.dgProduct.AllowUserToDeleteRows = false;
             this.dgProduct.AllowUserToResizeColumns = false;
             this.dgProduct.AllowUserToResizeRows = false;
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle7.NullValue = null;
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.Gainsboro;
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.Black;
-            this.dgProduct.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle25.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle25.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle25.NullValue = null;
+            dataGridViewCellStyle25.SelectionBackColor = System.Drawing.Color.Gainsboro;
+            dataGridViewCellStyle25.SelectionForeColor = System.Drawing.Color.Black;
+            this.dgProduct.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle25;
             this.dgProduct.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgProduct.BackgroundColor = System.Drawing.Color.White;
             this.dgProduct.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgProduct.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
             this.dgProduct.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.Disable;
             this.dgProduct.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgProduct.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle26.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle26.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle26.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle26.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle26.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle26.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle26.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgProduct.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle26;
             this.dgProduct.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgProduct.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.productName,
             this.productQuantity,
             this.productRate,
             this.totalPrice});
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle9.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle9.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgProduct.DefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle27.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle27.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle27.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle27.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle27.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle27.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle27.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgProduct.DefaultCellStyle = dataGridViewCellStyle27;
             this.dgProduct.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnEnter;
             this.dgProduct.GridColor = System.Drawing.Color.Gainsboro;
             this.dgProduct.Location = new System.Drawing.Point(25, 113);
@@ -305,9 +305,9 @@
             this.addPanel.Controls.Add(this.txtRate);
             this.addPanel.Controls.Add(this.panel5);
             this.addPanel.Controls.Add(this.lblRate);
-            this.addPanel.Controls.Add(this.txtQuantity);
-            this.addPanel.Controls.Add(this.lblQuantity);
             this.addPanel.Controls.Add(this.txtName);
+            this.addPanel.Controls.Add(this.lblQuantity);
+            this.addPanel.Controls.Add(this.txtQuantity);
             this.addPanel.Controls.Add(this.lblName);
             this.addPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.addPanel.Location = new System.Drawing.Point(594, 0);
@@ -405,7 +405,6 @@
             this.txtRate.Name = "txtRate";
             this.txtRate.Size = new System.Drawing.Size(71, 26);
             this.txtRate.TabIndex = 17;
-            this.txtRate.Text = "0";
             this.txtRate.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // panel5
@@ -427,15 +426,14 @@
             this.lblRate.TabIndex = 11;
             this.lblRate.Text = "Rate";
             // 
-            // txtQuantity
+            // txtName
             // 
-            this.txtQuantity.Font = new System.Drawing.Font("Open Sans", 10F);
-            this.txtQuantity.Location = new System.Drawing.Point(164, 156);
-            this.txtQuantity.Name = "txtQuantity";
-            this.txtQuantity.Size = new System.Drawing.Size(71, 26);
-            this.txtQuantity.TabIndex = 9;
-            this.txtQuantity.Text = "0";
-            this.txtQuantity.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtName.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtName.Font = new System.Drawing.Font("Open Sans", 10F);
+            this.txtName.Location = new System.Drawing.Point(161, 114);
+            this.txtName.Name = "txtName";
+            this.txtName.Size = new System.Drawing.Size(171, 19);
+            this.txtName.TabIndex = 9;
             // 
             // lblQuantity
             // 
@@ -447,14 +445,15 @@
             this.lblQuantity.TabIndex = 12;
             this.lblQuantity.Text = "Quantity";
             // 
-            // txtName
+            // txtQuantity
             // 
-            this.txtName.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtName.Font = new System.Drawing.Font("Open Sans", 10F);
-            this.txtName.Location = new System.Drawing.Point(161, 113);
-            this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(171, 19);
-            this.txtName.TabIndex = 10;
+            this.txtQuantity.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtQuantity.Font = new System.Drawing.Font("Open Sans", 10F);
+            this.txtQuantity.Location = new System.Drawing.Point(161, 159);
+            this.txtQuantity.Name = "txtQuantity";
+            this.txtQuantity.Size = new System.Drawing.Size(74, 26);
+            this.txtQuantity.TabIndex = 10;
+            this.txtQuantity.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // lblName
             // 
@@ -585,9 +584,9 @@
             this.ClientSize = new System.Drawing.Size(971, 639);
             this.Controls.Add(this.container);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "homePage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.homePage_MouseDown);
             this.topBar.ResumeLayout(false);
             this.pnlStore.ResumeLayout(false);
             this.pnlStore.PerformLayout();
@@ -627,9 +626,9 @@
         private System.Windows.Forms.TextBox txtRate;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Label lblRate;
-        private System.Windows.Forms.TextBox txtQuantity;
-        private System.Windows.Forms.Label lblQuantity;
         private System.Windows.Forms.TextBox txtName;
+        private System.Windows.Forms.Label lblQuantity;
+        private System.Windows.Forms.TextBox txtQuantity;
         private System.Windows.Forms.Label lblName;
         private System.Windows.Forms.Panel totalPanel;
         private System.Windows.Forms.Panel panel4;

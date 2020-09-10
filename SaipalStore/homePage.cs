@@ -16,14 +16,15 @@ namespace SaipalStore
         public homePage()
         {
             InitializeComponent();
+            fillEmpty(txtName, txtQuantity, txtRate);
         }
 
         //Method to clear the data.
         public void dataClear() 
         {
             //Clears the textboxes and labels that contain data. 
-            txtName.Clear(); 
             txtQuantity.Clear(); 
+            txtName.Clear(); 
             txtRate.Clear();
             lblAmount.Text = "";
             lblDiscountPer.Text = "";
@@ -43,8 +44,8 @@ namespace SaipalStore
                 dt = (DataTable)dgProduct.DataSource;
 
                 //Create strings to store the entered data.
-                string productName = txtName.Text;
-                string productQuantity = txtQuantity.Text;
+                string productName = txtQuantity.Text;
+                string productQuantity = txtName.Text;
                 string productRate = txtRate.Text;
 
                 //Perform calculations and store them as double in a new variable.
@@ -131,6 +132,8 @@ namespace SaipalStore
 
             //Clear the data fields.
             dataClear();
+            //Fill the empty textbox.
+            fillEmpty(txtName, txtQuantity, txtRate);
             
         }
 
@@ -139,7 +142,8 @@ namespace SaipalStore
         {
             //Clean the data fields.
             dataClear();
-
+            //Set the values of textboxes to zero
+            fillEmpty(txtName, txtQuantity, txtRate);
             //Clear the data contained in the rows.
             dgProduct.Rows.Clear();
         }
@@ -152,9 +156,24 @@ namespace SaipalStore
             lblFinalTotal.Text = "Rs. " + calculateFinal().ToString();
         }
 
-        private void homePage_MouseDown(object sender, MouseEventArgs e)
+        //Fill empty textboxes
+        private void fillEmpty(TextBox text, TextBox text1, TextBox text2)
         {
-            
+            //For first textbox
+            if (text.Text == "")
+            {
+                 text.Text = "0";
+            }
+            //For second textbox
+            if (text1.Text == "")
+            {
+                text1.Text = "0";
+            }
+            //For third textbox
+            if (text2.Text == "")
+            {
+                text2.Text = "0";
+            }
         }
     }
 }

@@ -129,4 +129,5 @@
   "Quantity" and "Rate" fields are empty or have content which are not numbers. <br>
   The error looks like this: <br><br>
   <img src="images/error.png" alt="broken_img"><br>
+  <b><i>This error has been already resolved. The program doesn't display this error now.</i></b>
 </p>
