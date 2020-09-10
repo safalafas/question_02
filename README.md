@@ -115,9 +115,8 @@
   After you finish the operations, you can clear the data fields as well as your shopping cart by clicking on "Clear"
   button.
   <h3>Minimizing and Closing the Application</h3>
-  You can minimize the application by clicking on the <img src="SaipalStore/images/minimize.png" alt="minimize"> button
-  that you find on the titleBar. Similarly, you can close the Application by clicking on the <img
-    src="SaipalStore/images/close.png" alt="close"> button next to it.
+  You can minimize the application by clicking on the "-" button
+  that you find on the titleBar. Similarly, you can close the Application by clicking on the "X" button next to it.
 </p>
 <h2>Known Errors</h2>
 <p>
