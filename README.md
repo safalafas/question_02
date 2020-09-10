@@ -106,12 +106,12 @@
   <h3>Entering the Data</h3>
   To enter the data, navigate to Data Entry Area, enter the data inside the textboxes, and click on "Add to Cart"
   button. <i>After entering the data, all the contents of the datafields will be cleared.</i><br>
-  The end result will look like this. <br>
+  The end result will look like this. <br><br>
   <img src="images/screen2.png" alt="broken_img"><br>
   <h3>Calculating and Display Discount and Total</h3>
   After you have entered the data, click on "Total" button to display the "Total Amount", "Discount", and "Total after
   Discount". <br>
-  The result will look like this: <br>
+  The result will look like this: <br><br>
   <img src="images/screen3.png" alt="broken_img"><br>
   <h3>Clearing the Data</h3>
   After you finish the operations, you can clear the data fields as well as your shopping cart by clicking on "Clear"
@@ -127,6 +127,6 @@
 <p>
   The only known error in this program occurs when the user clicks on "Add to Cart" button when the content of the
   "Quantity" and "Rate" fields are empty or have content which are not numbers. <br>
-  The error looks like this: <br>
+  The error looks like this: <br><br>
   <img src="images/error.png" alt="broken_img"><br>
 </p>
