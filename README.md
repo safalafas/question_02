@@ -1,6 +1,6 @@
 # question_02
 <p>Saipal Store has recently been opened in the heart of Tripureshwor. Since there are many departmental stores in the
-  same area, the store has decided to offer a special discount on its opening day. The following table illustrates
+  same area, the store has decided to offer a special discount on its opening day. The following table illust"Rate"s
   discounts based upon the different condition:
 </p>
 <table>
@@ -31,8 +31,8 @@
 </table>
 <p>
   The shop has decided to develop a computer program <b>preferably a GUI</b> based application that would read the
-  details of the purchase made which include the information of <ins>Product Name</ins>, <ins>Rate</ins> and
-  <ins>Quantity</ins> and <b>the Amount and the Total Amount be automatically calculated</b>.<i>The program should
+  details of the purchase made which include the information of <ins>"Product Name"</ins>, <ins>"Rate"</ins> and
+  <ins>"Quantity"</ins> and <b>the "Amount" and the "Total Amount" be automatically calculated</b>.<i>The program should
     automatically calculate the discount amount and the amount to be paid by the customer.</i>
 </p><br><br>
 <h1>Documentation</h1>
@@ -56,7 +56,7 @@
 <p>After you successfully build and run the program, it runs a console window which looks similar to this.<br>
   <img src="images/screen1.png" alt="broken_img"><br>
   There are four major fields in the application, <b>Data View Area</b>, <b>
-    Data Entry Area</b>, <b>Button Area</b>, and <b>Final Calculations Area
+    Data Entry Area</b>, <b>Button Area</b>, and <b>Final Display Area
   </b> as shown in image here here. <br>
   <img src="images/screen1(labels).png" alt="broken_img">
   <br>
@@ -80,22 +80,47 @@
     </tr>
     <tr>
       <td>Blue</td>
-      <td>Final Calculations Area</td>
+      <td>Final Display Area</td>
     </tr>
   </table>
-  <h3>Adding Data</h3>
-  To add data into the DataGridView
+  <h4>1. Data View Area</h4>
+  In Data View Area, the data entered by the user can be viewed. In this area, there's a DataGridView where the data
+  entered by the user is shown. The DataGridView has a table with four columns; "Product Name", "Quantity", "Rate" and
+  "Total".
+  "Product Name" stores the name of product entered by user, "Quantity" stores the amount of data, "Rate" shows the
+  price per
+  item. All these data can be entered through the Data Entry Area. Based on "Quantity" and "Rate", the app automatically
+  calculates the "Total" which is the total price for each product.
+  <h4>2. Data Entry Area</h4>
+  In this area, there are text boxes that are used to enter the data. The data entered here is added to the DataGridView
+  once "Add to Cart" button is clicked. There are three areas where you can enter the data; "Product Name", "Quantity",
+  and "Rate".
+  <h4>3. Button Area</h4>
+  There are three buttons in this area which are "Add to Cart", "Clear" and "Total". "Add to Cart" button adds the data
+  entered inside the textbox by the user into the DataGridView. "Clear" clears all the textbox, and "Total Amount",
+  "Discount" and "Total after Discount" fields as well as the DataGridView table. The "Total" button calculates the
+  "Total Amount", "Discount", and "Total after Discount" and displays them in the Final Display Area below.
+  <h4>4. Final Display Area</h4>
+  The Final Display Area displays the "Total Amount", "Discount", and "Total after Discount" after the calculations have
+  been completed when the user clicks on "Total" button. <br>
+  <h3>Entering the Data</h3>
+  To enter the data, navigate to Data Entry Area, enter the data inside the textboxes, and click on "Add to Cart"
+  button.
+  The end result will look like this. <br>
   <img src="images/screen2.png" alt="broken_img"><br>
-  After the operation is complete, the program ends itself. You have to press a key to close the console.
+  <h3>Calculating and Display Discount and Total</h3>
+  After you have entered the data, click on "Total" button to display the "Total Amount", "Discount", and "Total after
+  Discount".
+  <h3>Clearing the Data</h3>
+  After you finish the operations, you can clear the data fields as well as your shopping cart by clicking on "Clear"
+  button.
+  <h3>Minimizing and Closing the Application</h3>
+  You can minimize the application by clicking on the <img src="SaipalStore/images/minimize.png" alt="minimize"> button
+  that you find on the titleBar. Similarly, you can close the Application by clicking on the <img
+    src="SaipalStore/images/close.png" alt="close"> button next to it.
 </p>
 <h2>Known Errors</h2>
 <p>
-  There are mainly two errors that can occur while running this program. Either when no value is added or when
-  unacceptable value is added. In the first kind of error, the error looks like this: <br>
   <img src="images/error1.png" alt="broken_img"><br>
-  The second kind of error occurs when the entered data is either cannot be converted into integer, <i>for example, if
-    a string of letters is entered instead of numbers</i>. The errors also occur if the entered integer is larger
-  than 32 bits in size. <br>
-  The second error looks like this: <br>
   <img src="images/error2.png" alt="broken_img"><br>
 </p>
