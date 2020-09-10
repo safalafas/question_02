@@ -1,0 +1,10 @@
+C:\Users\safal\Desktop\Repos\SaipalStore\SaipalStore\bin\Debug\SaipalStore.exe.config
+C:\Users\safal\Desktop\Repos\SaipalStore\SaipalStore\bin\Debug\SaipalStore.exe
+C:\Users\safal\Desktop\Repos\SaipalStore\SaipalStore\bin\Debug\SaipalStore.pdb
+C:\Users\safal\Desktop\Repos\SaipalStore\SaipalStore\obj\Debug\SaipalStore.csprojAssemblyReference.cache
+C:\Users\safal\Desktop\Repos\SaipalStore\SaipalStore\obj\Debug\SaipalStore.homePage.resources
+C:\Users\safal\Desktop\Repos\SaipalStore\SaipalStore\obj\Debug\SaipalStore.Properties.Resources.resources
+C:\Users\safal\Desktop\Repos\SaipalStore\SaipalStore\obj\Debug\SaipalStore.csproj.GenerateResource.cache
+C:\Users\safal\Desktop\Repos\SaipalStore\SaipalStore\obj\Debug\SaipalStore.csproj.CoreCompileInputs.cache
+C:\Users\safal\Desktop\Repos\SaipalStore\SaipalStore\obj\Debug\SaipalStore.exe
+C:\Users\safal\Desktop\Repos\SaipalStore\SaipalStore\obj\Debug\SaipalStore.pdb
